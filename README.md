@@ -4,8 +4,6 @@
 
 **🏆 Hackathon Winner Project — GASTAT Data Innovation Hackathon 2026 🇸🇦**
 
-**🔗 [Live Demo](https://smart-observatory-for-digital-platform.onrender.com/)**
-
 *What if we could see what official records miss?*
 
 *The Statistical Blind Spot Meets Digital Reality*
