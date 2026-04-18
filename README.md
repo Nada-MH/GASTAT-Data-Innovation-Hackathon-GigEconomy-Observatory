@@ -16,7 +16,7 @@
 
 ## 📌 Vision & Objective
 
-> **An estimated 740,000 digital workers — mostly invisible in official records.**
+> **An estimated +2,000,000 digital workers — mostly invisible in official records.**
 
 The labor market is undergoing a radical shift towards the digital platform economy: ride-hailing drivers, delivery captains, and freelancers building businesses behind screens. The paradox is that most of these workers are **unregistered** in official insurance systems, creating a massive **statistical gap** and a **blind spot** that hinders decision-makers from understanding the true size of this growing economy.
 
@@ -51,10 +51,10 @@ To achieve true digital triangulation, the system ingests data from 9 diverse, n
 | 🏪 **Maroof** | Tracks and verifies e-commerce and freelance practitioners registered in the local ecosystem. |
 | 📈 **Google Trends** | Measures temporal search demand for keywords related to gig apps, delivery, and freelancing. |
 | 📱 **App Store Intelligence** | Analyzes delivery app footprints, estimating driver counts via download and review metrics. |
-| 🗺️ **Last-Mile Maps (POIs)** | Analyzes Points of Interest (Cloud Kitchens, Logistics Hubs) combined with live traffic data to estimate delivery worker density. |
+| 🗺️ **Last-Mile Maps (POIs & Traffic)** | Analyzes Points of Interest (Cloud Kitchens, Logistics Hubs) combined with live traffic data to estimate delivery worker density. |
 | 🐦 **Twitter (X)** | Conducts sentiment analysis on gig economy discussions, worker rights, and regulatory policies. |
 | ⭐ **App Reviews** | Scrapes app store reviews to evaluate service quality, worker pressure, and operational pace. |
-| 🏠 **Aqar** | Monitors real estate brokers and independent agents working in the flexible real estate sector. |
+| 🏠 **Airbnb** | Monitors real estate brokers and independent agents working in the flexible real estate sector (hosters). |
 
 ---
 
