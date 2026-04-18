@@ -3,6 +3,7 @@
 # 👁️ Gig-Foundry: Smart Observatory for Digital Platform Workers
 
 **🏆 Hackathon Winner Project — GASTAT Data Innovation Hackathon 2026 🇸🇦**
+
 *Developers: Nada Alharbi & Azzam Alzahrani*
 *Acknowledgments: Rashed Alkhaldi*
 
