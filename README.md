@@ -102,6 +102,5 @@ Open your browser to `http://localhost:5173`.
 
 <div align="center">
 
-**"Investing in this observatory means informational sovereignty and leadership for the Kingdom in the economy of the future."**
 
 </div>
