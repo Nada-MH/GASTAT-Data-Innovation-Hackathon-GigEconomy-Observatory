@@ -1,157 +1,91 @@
 <div align="center">
 
-# 👁️ المرصد الذكي لقياس المشتغلين عبر المنصات  الرقمية
+# 👁️ Gig-Foundry: Smart Observatory for Digital Platform Workers
 
-### Gig-Foundry: Smart Observatory for Digital Platform Workers
+**🏆 Hackathon Winner Project — GASTAT Data Innovation Hackathon 2026 🇸🇦**
 
-**🔗 [استعرض المنصة مباشرة](https://smart-observatory-for-digital-platform.onrender.com/)**
+**🔗 [Live Demo](https://smart-observatory-for-digital-platform.onrender.com/)**
 
-*ماذا لو استطعنا رؤية ما لا تراه السجلات الرسمية؟*
+*What if we could see what official records miss?*
 
-*The Statistical Blind Spot Meets Digital Reality | تجاوز النقاط العمياء الإحصائية في سوق العمل المرن*
+*The Statistical Blind Spot Meets Digital Reality*
 
 ---
-
 
 </div>
 
----
+## 📌 Vision & Objective
 
-## 📌 الهدف والرؤية
+> **An estimated 740,000 digital workers — mostly invisible in official records.**
 
-> **740,000 عامل رقمي مُقدَّر — أغلبهم غير مرئيين في أي سجل رسمي.**
+The labor market is undergoing a radical shift towards the digital platform economy: ride-hailing drivers, delivery captains, and freelancers building businesses behind screens. The paradox is that most of these workers are **unregistered** in official insurance systems, creating a massive **statistical gap** and a **blind spot** that hinders decision-makers from understanding the true size of this growing economy.
 
-يشهد سوق العمل تحولاً جذرياً نحو اقتصاد المنصات الرقمية: سائقون في تطبيقات النقل الذكي، كباتن توصيل يجوبون المدن، ومستقلون يبنون أعمالهم من خلف الشاشات. لكن المفارقة أن معظم هؤلاء المشتغلين **غير مسجلين** في الأنظمة التأمينية الرسمية، مما يخلق **فجوة إحصائية ضخمة** و**نقطة عمياء** تعيق صناع القرار عن فهم الحجم الحقيقي لهذا الاقتصاد المتنامي.
+**"Gig-Foundry"** is not just a traditional dashboard — it is a **sovereign operating system** and a **Digital Twin** of the flexible labor market in Saudi Arabia. It performs:
 
-مشروع **"مسبار الاقتصاد المرن" (Gig-Foundry)** ليس مجرد لوحة بيانات تقليدية — بل هو **نظام تشغيل سيادي** و**توأم رقمي (Digital Twin)** لسوق العمل المرن في المملكة. يقوم بـ:
-
-- 🔍 **الاستشعار**: تتبع "الآثار الرقمية" للمشتغلين عبر 9 مصادر بيانات غير تقليدية
-- 🧠 **الاستدلال**: تصنيف المشتغلين آلياً حسب القطاع والنشاط والموقع الجغرافي
-- ⚖️ **المقارنة**: تقديم مقارنة حية بين الإحصاءات الرسمية والواقع الرقمي المرصود
-- 🎯 **الدعم**: تمكين صناع القرار من صياغة سياسات احتواء وتحفيز ذكية وفق **رؤية المملكة 2030**
+- 🔍 **Sensing:** Tracking the "digital footprints" of workers across 9 non-traditional data sources.
+- 🧠 **Inference:** Automatically classifying workers by sector, activity, and geographic location.
+- ⚖️ **Comparison:** Providing a live comparison between official statistics and the observed digital reality.
+- 🎯 **Support:** Empowering decision-makers to formulate smart inclusion and incentive policies aligned with **Saudi Vision 2030**.
 
 ---
 
-## 🔬 المنهجيات العلمية المتبعة
+## 🔬 Scientific Methodologies
 
-> مشروعنا ليس مجرد فكرة تقنية — بل هو **تطبيق عملي لمنهجيات علمية واقتصادية حديثة** تُستخدم عالمياً لسد الفجوات الإحصائية.
+This project is a practical application of modern scientific and economic methodologies used globally to bridge statistical gaps.
 
-### 1. 📊 البيانات الضخمة كمؤشرات اقتصادية (Big Data as Economic Indicators)
+1. **Big Data as Economic Indicators:** Using search trends (Google Trends) to monitor real-time growth and demand, predicting economic shifts months before official reports.
+2. **Signaling Theory in Labor Markets:** Scraping open platforms (LinkedIn, Salla, Maroof) because digital behavior is a strong "signal" of actual economic activity.
+3. **Digital Triangulation:** Cross-referencing platform data, Last-Mile mobility maps, and NLP analysis to ensure reliable estimates and reduce error margins.
+4. **Digital Twin of the Labor Market:** Moving beyond static numbers to a dynamic extrapolation model that scales digital samples to estimate the total market size, exposing the "Statistical Blind Spot."
 
-| البُعد | التفصيل |
+---
+
+## 📊 9 Data Sources Powering the Observatory
+
+To achieve true digital triangulation, the system ingests data from 9 diverse, non-traditional sources. The architecture uses a Cached/Live approach for high performance.
+
+| Data Source | Purpose & Utilization |
 |:---|:---|
-| **المبدأ** | الآثار الرقمية تسبق البيانات الرسمية في رصد التحولات الاقتصادية |
-| **التطبيق** | اعتمدنا على بيانات **Google Trends** لرصد النمو اللحظي والطلب على المنصات المرنة، محاكين دراسات البنك الدولي للتنبؤ بالمتغيرات الاقتصادية قبل التقارير الرسمية بـ **6 أشهر** |
-
-### 2. 📡 نظرية اقتصاد الإشارات (Signaling Theory in Labor Markets)
-
-| البُعد | التفصيل |
-|:---|:---|
-| **المبدأ** | سلوك الأفراد على المنصات الرقمية يُعد "إشارة" قوية على نشاطهم الاقتصادي الفعلي |
-| **التطبيق** | استخدمنا أدوات مثل **Apify** لكشط بيانات المنصات المفتوحة (LinkedIn للمستقلين، سلة ومعروف للمتاجر)، لتوفير مؤشر دقيق لحجم اقتصاد المعرفة وتوزعه الجغرافي |
-
-### 3. 📐 التثليث الرقمي (Digital Triangulation)
-
-| البُعد | التفصيل |
-|:---|:---|
-| **المبدأ** | دمج مقاطعات بيانية متنوعة يُحسّن الموثوقية ويربط النقاط المتناثرة |
-| **التطبيق** | ربطنا بين بيانات المنصات، وخرائط الحركة (Last-Mile)، وبيانات النماذج اللغوية، لضمان دقة التقدير وتقليل نسب الخطأ في استنتاج الأعداد والحركة الميدانية |
-
-### 4. 🤖 التوأم الرقمي لسوق العمل (Digital Twin of the Labor Market)
-
-| البُعد | التفصيل |
-|:---|:---|
-| **المبدأ** | تحويل سوق العمل من "أرقام جامدة" إلى "نموذج حي" يتفاعل مع المتغيرات |
-| **التطبيق** | يعتمد المرصد على **محرك استنباط (Extrapolation Model)** يتيح رفع وخفض المؤشرات للمقارنة مع أرقام التأمينات والموارد البشرية، لنرتقي من الرصد التاريخي إلى **الاستشراف اللحظي السيادي** |
+| 🔵 **LinkedIn** | Scrapes freelancer profiles to extract job titles, skills, and geographic distribution. |
+| 🛒 **Salla** | Analyzes e-commerce stores to identify freelance practitioner documents and trade volume. |
+| 🏪 **Maroof** | Tracks and verifies e-commerce and freelance practitioners registered in the local ecosystem. |
+| 📈 **Google Trends** | Measures temporal search demand for keywords related to gig apps, delivery, and freelancing. |
+| 📱 **App Store Intelligence** | Analyzes delivery app footprints, estimating driver counts via download and review metrics. |
+| 🗺️ **Last-Mile Maps (POIs)** | Analyzes Points of Interest (Cloud Kitchens, Logistics Hubs) combined with live traffic data to estimate delivery worker density. |
+| 🐦 **Twitter (X)** | Conducts sentiment analysis on gig economy discussions, worker rights, and regulatory policies. |
+| ⭐ **App Reviews** | Scrapes app store reviews to evaluate service quality, worker pressure, and operational pace. |
+| 🏠 **Aqar** | Monitors real estate brokers and independent agents working in the flexible real estate sector. |
 
 ---
 
-## 📊 مصادر البيانات المُستخدمة
+## ⚙️ Technical Requirements
 
-> لتحقيق **التثليث الرقمي** وبناء توأم رقمي دقيق، اعتمدنا على **9 مصادر بيانات غير تقليدية** لتعويض النقص في السجلات الإدارية التقليدية. النظام مبني على هيكلية **(Cached / Live)** لضمان سرعة الاستجابة وتحديث البيانات اللحظي.
-
-| مصدر البيانات | Cached Endpoint | Live Endpoint | الهدف والاستخدام |
-|:---|:---|:---|:---|
-| **LinkedIn** | `GET /api/linkedin/freelancers` | `POST /api/linkedin/apify/run` | كشط بيانات المستقلين: المسميات الوظيفية والموقع الجغرافي |
-| **Salla** | `GET /api/salla/stores` | `POST /api/salla/sync` | كشط المتاجر لتمييز وثائق العمل الحر وحساب حجم التجارة الإلكترونية |
-| **Maroof** | `GET /api/maroof/cached` | `POST /api/maroof/sync` | رصد وتوثيق ممارسي التجارة الإلكترونية والعمل الحر |
-| **Google Trends** | `GET /api/trends/cached` | `POST /api/trends/run` | تحليل حجم الطلب الزمني على مفردات (تطبيق، توصيل، مستقل) |
-| **App Store** | `GET /api/apps/cached` | `GET /api/apps/fetch` | تحليل استخبارات تطبيقات التوصيل وتنزيلات السائقين |
-| **Last-Mile Maps** | `GET /api/last-mile/cached` | `GET /api/last-mile/analyze` | تحليل نقاط الاهتمام (POIs) لتخمين كثافة عمال التوصيل واللوجستيات |
-| **Twitter (X)** | `GET /api/twitter/cached` | `POST /api/twitter/analyze` | تحليل المشاعر (Sentiment) ونقاشات العمل المرن والتشريعات |
-| **Reviews** | `GET /api/reviews/cached` | `POST /api/reviews/sync` | كشط مراجعات التطبيقات لتقدير جودة الخدمة ووتيرة العمل |
-| **Aqar** | `GET /api/aqar/cached` | `POST /api/aqar/sync` | كشط الوسطاء العقاريين والمستقلين في القطاع العقاري |
-
----
-
-## 🧮 محرك الاستنباط والمعادلة
-
-> لا يعتمد النظام على الأرقام السطحية فقط — بل يُفعّل **نموذج استنباط إحصائي تفاعلي** لمحاكاة العينة العشوائية وتكبيرها لتشمل الحجم الكلي للسوق.
-
-### المعادلة الأساسية:
-
-```text
-Digital Estimate = Σ (Raw Digital Sample_i × Sector Multiplier_i × Global Scale Factor)
-```
-
-### شرح المتغيرات:
-
-| المتغير | الوصف | مثال |
-|:---|:---|:---|
-| **Raw Sample** | العينة المباشرة المُكشطة من الـ API | عدد الوسطاء من Aqar، ممارسي Maroof، السائقين من مراجعات Apps |
-| **Sector Multiplier** | مُعامل وزن خاص بالمصدر حسب تمثيله في السوق | مضاعف سلة × 25، مضاعف المستقلين × 120 |
-| **Global Scale Factor** | نسبة تحكم (Slider) متاحة لصانع القرار لضبط الحساسية | افتراضياً = 50 |
-
-### صيغة النقطة العمياء الإحصائية:
-
-```text
-Blind Spot % = ((Digital Estimate - Official Gov Records) / Official Gov Records) × 100
-```
-
-> **مثال توضيحي:** إذا كانت وزارة التجارة تسجل رسمياً 45,000 تسجيل تجارة إلكترونية، لكن نموذج الاستقراء يُقدّر 105,000 تاجر رقمي نشط بناءً على بصمة "سلة"، فإن النظام يحسب **نقطة عمياء بنسبة +133%** — كاشفاً الشريحة الضخمة غير المنظمة من اقتصاد المنصات.
-
----
-
-## ⚙️ متطلبات التشغيل
-
-| المتطلب | التفصيل |
+| Requirement | Details |
 |:---|:---|
-| **بيئة التشغيل** | Node.js (إصدار v18 أو أحدث) |
-| **مدير الحزم** | npm |
-| **مفاتيح API** | groq API Key (ومستخدم Apify اختيارياً لتشغيل الكشط من الصفر) |
-
-**المكتبات الأساسية:**
-
-`React` • `TypeScript` • `Vite` • `Recharts` • `Leaflet` • `react-leaflet` • `TailwindCSS` • `Lucide React`
+| **Environment** | Node.js (v18 or newer) |
+| **Package Manager** | npm |
+| **Tech Stack** | `React`, `TypeScript`, `Vite`, `Recharts`, `Leaflet`, `TailwindCSS`, `Groq API (Llama 3)` |
 
 ---
 
-## 🛠️ التشغيل التقني للحل
+## 🛠️ How to Run
 
-### الخيار الأول: استعراض المنصة مباشرة (بدون تثبيت)
+### Option 1: Live Platform (No Installation)
 
 > 🌐 **[https://smart-observatory-for-digital-platform.onrender.com/](https://smart-observatory-for-digital-platform.onrender.com/)**
->
-> المنصة منشورة على **Render** وجاهزة للاستعراض الفوري — لا حاجة لأي تثبيت أو إعداد.
 
-### الخيار الثاني: التشغيل المحلي
+### Option 2: Local Development
 
-#### 1. الاستنساخ والتثبيت
-
+#### 1. Clone & Install
 ```bash
-# استنساخ المستودع
-git clone <رابط المستودع>
-cd smart-observatory
-
-# تثبيت المكتبات
+git clone https://github.com/Nada-MH/GASTAT-Data-Innovation-Hackathon-GigEconomy-Observatory.git
+cd GASTAT-Data-Innovation-Hackathon-GigEconomy-Observatory
 npm install
 npx playwright install
 ```
 
-#### 2. إعداد المتغيرات البيئية
-
-أنشئ ملف `.env.local` في المجلد الرئيسي وأضف:
-
+#### 2. Environment Variables
+Create a `.env.local` file in the root directory:
 ```env
 APIFY_API_TOKEN="your_apify_token_here"
 GOOGLE_MAPS_API_KEY="your_google_maps_key_here"
@@ -160,47 +94,16 @@ TWITTER_API_IO_KEY="your_twitter_api_io_key_here"
 MAROOF_API_KEY="your_maroof_api_key_here"
 ```
 
-> **📝 ملاحظة للمحكمين:** تم استخدام نموذج llama 3 لتحليل التوجهات ومعالجة البيانات غير المُهيكلة. المفتاح المتاح مع التسليم صالح للاستخدام.
-
-#### 3. التشغيل
-
+#### 3. Start the Server
 ```bash
 npm run dev
 ```
-
-افتح المتصفح على `http://localhost:5173`
-
----
-
-## 🚀 كيفية محاكاة الحل آلياً
-
-> لمن يرغب في محاكاة تجميع البيانات الآلي قبل عرضها في الواجهة — هذا هو التطبيق الفعلي للمنهجيات العلمية:
-
-### 1. جمع بيانات المشتغلين الحرين (Signaling Theory)
-
-تم استخدام أداة **Apify** وتقنيات الكشط عبر سكريبتات `linkedinScraper.ts` و `sallaScraper.ts` المنفذة باستخدام خدمات Low-code. النتائج محفوظة في مجلد `/data/` بصيغة JSON لضمان أداء ثابت لواجهة العرض التجريبي.
-
-### 2. التثليث الرقمي والمحاكاة (Triangulation)
-
-تقوم الواجهة الأمامية بسحب `linkedin_freelancers.json` و `salla_stores.json` ومعالجتها لحظياً، بالإضافة إلى بناء نماذج إحصائية عبر مكون `<ExecutiveOverview />` الذي يدمج أرقام 2025 الرسمية من وزارة الموارد البشرية ويقارنها بالحجم الرقمي الحقيقي المستنبط.
-
----
-
-## 🎥 الفيديو التوضيحي
-
-> 👉 *[رابط الفيديو التوضيحي - / Drive]* (https://drive.google.com/drive/folders/11CvjOu4kYBwpqOVfMyixPUhLafp4CLRX)
-يتضمن الفيديو (3 دقائق استيفاءً لشروط التسليم):
-
-1. 🎯 نظرة عامة على المشكلة  وحلها عبر التوأم الرقمي
-2. ⚙️ طريقة تشغيل الحل وسحب البيانات
-3. 📊 استعراض لوحة القيادة واستدلال أعداد المشتغلين وتصنيفهم الجغرافي
+Open your browser to `http://localhost:5173`.
 
 ---
 
 <div align="center">
 
-**"الاستثمار في هذا المرصد يعني السيادة المعلوماتية وريادة المملكة في اقتصاد المستقبل."**
-
-مشروع مقدم لهاكاثون الهيئة العامة للإحصاء 2026 🇸🇦
+**"Investing in this observatory means informational sovereignty and leadership for the Kingdom in the economy of the future."**
 
 </div>
