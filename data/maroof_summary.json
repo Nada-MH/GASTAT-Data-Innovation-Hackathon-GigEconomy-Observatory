@@ -1,0 +1,85 @@
+    }
+  ],
+  "responses": [
+    {
+      "status": 200,
+      "url": "https://maroof.sa/businesses",
+      "content_type": "text/html",
+      "body_preview": "<!DOCTYPE html><html lang=\"en\"><head>\n  \n  <meta charset=\"utf-8\">\n  <title>معروف</title>\n  <base href=\"/\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico\">\n\n<!-- <link id=\"client-theme\" rel=\"stylesheet\" as=\"style\" href=\"styles-rtl.css\"/> -->\n\n</head>\n<body>\n  \n  <app-root></app-root>\n\n<script src=\"runtime.4ec78ae369133a91.js\" type=\"module\"></script><script src=\"polyfills.092f595d9c8501cb.js\" type=\"module\"></script><script src=\"main.36a4912f6db4ef78.js\" type=\"module\"></script>\n\n</body></html>"
+    },
+    {
+      "status": 200,
+      "url": "https://maroof.sa/runtime.4ec78ae369133a91.js",
+      "content_type": "application/javascript",
+      "body_preview": "(()=>{\"use strict\";var e,b={},m={};function r(e){var n=m[e];if(void 0!==n)return n.exports;var t=m[e]={exports:{}};return b[e].call(t.exports,t,t.exports,r),t.exports}r.m=b,r.amdO={},e=[],r.O=(n,t,o,f)=>{if(!t){var a=1/0;for(i=0;i<e.length;i++){for(var[t,o,f]=e[i],s=!0,u=0;u<t.length;u++)(!1&f||a>=f)&&Object.keys(r.O).every(v=>r.O[v](t[u]))?t.splice(u--,1):(s=!1,f<a&&(a=f));if(s){e.splice(i--,1);var l=o();void 0!==l&&(n=l)}}return n}f=f||0;for(var i=e.length;i>0&&e[i-1][2]>f;i--)e[i]=e[i-1];e[i]=[t,o,f]},r.n=e=>{var n=e&&e.__esModule?()=>e.default:()=>e;return r.d(n,{a:n}),n},r.d=(e,n)=>{for(var t in n)r.o(n,t)&&!r.o(e,t)&&Object.defineProperty(e,t,{enumerable:!0,get:n[t]})},r.f={},r.e=e=>Promise.all(Object.keys(r.f).reduce((n,t)=>(r.f[t](e,n),n),[])),r.u=e=>e+\".\"+{718:\"8a4d35f954c309d3\",788:\"9eadedbc14a18658\",888:\"038e730615eea80e\"}[e]+\".js\",r.miniCssF=e=>{},r.o=(e,n)=>Object.prototype.hasOwnProperty.call(e,n),(()=>{var e={},n=\"maroof-visitor:\";r.l=(t,o,f,i)=>{if(e[t])e[t].push(o);els"
+    },
+    {
+      "status": 200,
+      "url": "https://maroof.sa/polyfills.092f595d9c8501cb.js",
+      "content_type": "application/javascript",
+      "body_preview": "\"use strict\";(self.webpackChunkmaroof_visitor=self.webpackChunkmaroof_visitor||[]).push([[429],{5565:(Wt,zn,Kn)=>{Error;const $o=function(s,...e){if($o.translate){const n=$o.translate(s,e);s=n[0],e=n[1]}let t=Gl(s[0],s.raw[0]);for(let n=1;n<s.length;n++)t+=e[n-1]+Gl(s[n],s.raw[n]);return t};function Gl(s,e){return\":\"===e.charAt(0)?s.substring(function Ul(s,e){for(let t=1,n=1;t<s.length;t++,n++)if(\"\\\\\"===e[n])n++;else if(\":\"===s[t])return t;throw new Error(`Unterminated $localize metadata block in \"${e}\".`)}(s,e)+1):s}(()=>typeof globalThis<\"u\"&&globalThis||typeof global<\"u\"&&global||typeof window<\"u\"&&window||typeof self<\"u\"&&typeof WorkerGlobalScope<\"u\"&&self instanceof WorkerGlobalScope&&self)().$localize=$o,Kn(8583)},8583:()=>{!function(d){const v=d.performance;function T(de){v&&v.mark&&v.mark(de)}function _(de,q){v&&v.measure&&v.measure(de,q)}T(\"Zone\");const S=d.__Zone_symbol_prefix||\"__zone_symbol__\";function A(de){return S+de}const H=!0===d[A(\"forceDuplicateZoneCheck\")];if(d.Zone"
+    },
+    {
+      "status": 200,
+      "url": "https://maroof.sa/main.36a4912f6db4ef78.js",
+      "content_type": "application/javascript",
+      "body_preview": "(self.webpackChunkmaroof_visitor=self.webpackChunkmaroof_visitor||[]).push([[179],{137:(j,J,c)=>{\"use strict\";c.d(J,{a:()=>x});var r=c(5861),u=c(4650),_=c(7750),m=c(1214);let x=(()=>{class T{constructor(N,P){this.router=N,this.oAuthService=P}isAccessAllowed(N,P){var F=this;return(0,r.Z)(function*(){return F.oAuthService.hasValidAccessToken()||F.router.navigate([\"/not-authorized\"]),!0})()}}return T.\\u0275fac=function(N){return new(N||T)(u.LFG(_.F0),u.LFG(m.Ct))},T.\\u0275prov=u.Yz7({token:T,factory:T.\\u0275fac,providedIn:\"root\"}),T})()},8951:(j,J,c)=>{\"use strict\";c.d(J,{e:()=>F});var r=c(5861),u=c(9300),_=c(4650),m=c(7206),T=c(6895),G=c(176),N=c(1214);let F=(()=>{class O{constructor($,U,k,te){this.document=$,this.appConfig=U,this.oauthService=k,this.platformId=te,this.userName=\"\",this.email=\"\",this.isLogedIn=!1,this.isVisitor=!1}ngOnInit(){}getUserName(){return this.userName}getEamil(){return this.email}isLogedInUser(){return this.isLogedIn}isUserVisitor(){return this.isVisitor}checkAut"
+    },
+    {
+      "status": 200,
+      "url": "https://maroof.sa/888.038e730615eea80e.js",
+      "content_type": "application/javascript",
+      "body_preview": "(self.webpackChunkmaroof_visitor=self.webpackChunkmaroof_visitor||[]).push([[888],{5876:(N,s,u)=>{const n=u(532),e=u(7554),o=u(179),r=u(1036);function a(c,l,d,i,g){const h=[].slice.call(arguments,1),f=h.length,m=\"function\"==typeof h[f-1];if(!m&&!n())throw new Error(\"Callback required as last argument\");if(!m){if(f<1)throw new Error(\"Too few arguments provided\");return 1===f?(d=l,l=i=void 0):2===f&&!l.getContext&&(i=d,d=l,l=void 0),new Promise(function(C,D){try{const A=e.create(d,i);C(c(A,l,i))}catch(A){D(A)}})}if(f<2)throw new Error(\"Too few arguments provided\");2===f?(g=d,d=l,l=i=void 0):3===f&&(l.getContext&&typeof g>\"u\"?(g=i,i=void 0):(g=i,i=d,d=l,l=void 0));try{const C=e.create(d,i);g(null,c(C,l,i))}catch(C){g(C)}}s.rT=a.bind(null,o.render),s.hz=a.bind(null,o.renderToDataURL),s.toString=a.bind(null,function(c,l,d){return r.render(c,d)})},532:N=>{N.exports=function(){return\"function\"==typeof Promise&&Promise.prototype&&Promise.prototype.then}},3012:(N,s,u)=>{const t=u(4860).getSymbo"
+    },
+    {
+      "status": 200,
+      "url": "https://maroof.sa/assets/configuration/appconfig.k8s.json",
+      "content_type": "application/json",
+      "body_preview": "{\"settings\": \"RTEwwaFbx+vSYGcYk0owaSi+2q1o4tARkiqlw/goDh7IvCwrLU0rrHQWxK7bZ7o+TGNqk8ozJe2Rmh9Gzy695B3GsAxPCnPHQlQ15M2XumwVhmtD272Lenl6eSu74HZMi8nSnYGkOsTJHcUoZJheOLKLkRa93h0Qn7StQ6DOeOkbdim86XDjgUheIXXZmb1AuZbzR8evQ6W1SR4OOiHsiENNfO9R8fGFLw41550+krXTwlarvR8Us5g3iy3gbZdzvXj6HOvLCoBF3coltlWDJ4dekY72I7NMJ41G0y34peWknslqqvi/3DNcntZ95V1ypksoyJfRlenOQClLE44wBjkTjNzDB2s2sukwMJLn4JDeh+ls4W2IupbvtOXILmEOdGVlOw1yJtTDONhi3OtXkQwmJhTO11/WlpcHA9Aba/lEe2InRmJScrwOYkIlKyUtoCui2p65PQiNaFP/2KaAGlKQJNrHSil1wpvd3OgLIp6vDEf8+lNjCWNEK0HD06A+r2L7BZ5gHlKIhvnqXdjRsFSa3E+c24M7mzqoKWDcDZH5KfIZu8MC5iLT51UJ8lowoXoxECn/D5ZTxkSmB98X5cVctEpLBnw/ut0HxeoTZrk949qrg4vpsMO91vGZxtngnnNJTAq6GiGbfcDnsZaN10KWxCEp89RevyDUd/swaJPlw4lmcm4AQ406k7opeNAAKV1h6VzNJkeNlYeEUPkVu7zSfOPDXiQDRzUMQGwXYm0bmOipMpNP9iZ5xzEkAV7TsQCfJ9DCh2xAdeAIXcAi7xbHAU3jMZ+iGDVMXc+eooL3Mj6xoVb7T2yRNgvVvoBxz8tz5X/Bj+csMM3ATaQdnGxlZbKLVMftfZYdc3l9ugngJKt6r7QKZWdJJNHxeq9XNCFaos/XPMiCJQpOE25zI0bXq9iTupddg4LROPZaWRKeb67lg09ExYk9AvLogQ29oRHFn/0WGp5xRMMjVVDdH/jBnpI3E7scFDyrMPMm7kg66nvF1VpJxGulYujfUCG0h7yLlEF0ISbqiEJUOVhOhJ8781n0axrE4krCkefRk05TkKW6kT43UXDPMphPKFFJDZD029w6QBiQBAIQ5syd67w0GmvyZV/f84614MgWJD2BotRUcVv245XwNhPDShdwTmtR9bvtqPwhcyWzYO4qKJLQU5Q7b4m3N/CDAfMp0mhhGhM6lLuG+YAYsLiw1SGtCHoqMHrspiDlnd4MYaaM36iqs7h+Yfls5WteSuXI11u7f8EKzG8Du76MrfVqx0EVTYkFbcP4x/1rC4DxNmDn3xgvytK5F4i83ZCn/2dQhv4+ajrLtyqj8T20Kh6pU746u1nalGUz/tfz/i1//zT0Nepo3LyT7TGFiCOPaaEL4yfDYkAv4wI4erPFbzIXOqVWeDOJ8dyEYPufGAUCQN4p2Nl0h2AmBFkHfCNNAC76n0KfXiiCJnC2UuTEjwYj2QrhfcL8Swjz7Z5umH2rF+KJ2jTQ5hZV/MuGPAl7w/W/HLJpCHV6Mdj6//JWxpf5vFRznFFA/2uo40k6K1VoL9j+y0ijoF/L4wG25zeyThGVs/4vCXfSmfb1BP3gltdzmZ/QadAp4wYWhpA3WqIF7MS5iZjNMWW/KGTaiB9v2cGv1aSMuyNMtlNQ/f43YJCpRyRR6hOxWZ3HEzmBvEWOZcd649dPJdMEBmUYLXr8ARL4vbItPmDFcd/z1DEJ0yH8/9ZlIUqsLKBAjSBymj3Ip+JaUb50tpIE1ierePKV0Tt/Heumak0zn2BmYTHGr5zrOFzW4KdEY3poYHSVfL5rU2PGsqsVHLarxKvn/DbFOOq41ug/DzWlqIcP2j4PZIn370KI5weJ0jTRhT5wbGS2P4v3qSYQ6SMGiAdpRoufnlyjw6d+9fdx0VuhTsTlAVQQLPTRLJ7xbI2NyklE2YZvOFSO2Tb/ZT7giHirjd+nS2OqB+U=\"}"
+    },
+    {
+      "status": 200,
+      "url": "https://maroof.sa/788.9eadedbc14a18658.js",
+      "content_type": "application/javascript",
+      "body_preview": "\"use strict\";(self.webpackChunkmaroof_visitor=self.webpackChunkmaroof_visitor||[]).push([[788],{2788:(Wu,Z,r)=>{r.r(Z),r.d(Z,{PagesModule:()=>Xu});var l=r(5722),U=r(418),d=r(6895),s=r(4006),g=(()=>{return(t=g||(g={}))[t.Like=1]=\"Like\",t[t.Dislike=2]=\"Dislike\",g;var t})(),u=r(4650),_=r(4093);let E=(()=>{class t{constructor(e){this.restService=e,this.apiName=\"Default\",this.addReactionByIdAndInput=(n,i)=>this.restService.request({method:\"POST\",url:`/public/api/app/cms-faq/${n}/reaction`,body:i},{apiName:this.apiName}),this.getAllByInput=n=>this.restService.request({method:\"GET\",url:\"/public/api/app/cms-faq\",params:{sorting:n.sorting,skipCount:n.skipCount,maxResultCount:n.maxResultCount}},{apiName:this.apiName})}}return t.\\u0275fac=function(e){return new(e||t)(u.LFG(_.s))},t.\\u0275prov=u.Yz7({token:t,factory:t.\\u0275fac,providedIn:\"root\"}),t})();var p=r(1481),h=r(4463);const y=[\"likeBtn\"];function w(t,o){if(1&t){const e=u.EpF();u._UZ(0,\"div\",17),u.TgZ(1,\"div\",18)(2,\"label\"),u._uU(3,\" \\u064"
+    },
+    {
+      "status": 200,
+      "url": "https://maroof.sa/718.8a4d35f954c309d3.js",
+      "content_type": "application/javascript",
+      "body_preview": "\"use strict\";(self.webpackChunkmaroof_visitor=self.webpackChunkmaroof_visitor||[]).push([[718],{3718:(Cn,G,o)=>{o.r(G),o.d(G,{BusinessesModule:()=>An});var p=o(6895),e=o(4650),_=o(4006),C=o(2722),de=o(4986),pe=o(4482),ge=o(8421),V=o(5403),me=o(2805);var fe=o(8675),be=o(8505),ve=o(8372),Te=o(9300),Ae=o(4004),z=o(4408),Ce=o(727);const D={schedule(n){let i=requestAnimationFrame,t=cancelAnimationFrame;const{delegate:s}=D;s&&(i=s.requestAnimationFrame,t=s.cancelAnimationFrame);const u=i(l=>{t=void 0,n(l)});return new Ce.w0(()=>t?.(u))},requestAnimationFrame(...n){const{delegate:i}=D;return(i?.requestAnimationFrame||requestAnimationFrame)(...n)},cancelAnimationFrame(...n){const{delegate:i}=D;return(i?.cancelAnimationFrame||cancelAnimationFrame)(...n)},delegate:void 0};var K=o(7565);const Se=new class Ze extends K.v{flush(i){this._active=!0;const t=this._scheduled;this._scheduled=void 0;const{actions:s}=this;let u;i=i||s.shift();do{if(u=i.execute(i.state,i.delay))break}while((i=s[0])&&i.id==="
+    },
+    {
+      "status": 200,
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=2052263447&t=pageview&_s=1&dl=https%3A%2F%2Fmaroof.sa%2Fbusinesses&ul=ar-sa&dt=%D9%85%D8%B9%D8%B1%D9%88%D9%81%20%7C%20%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D9%85%D8%AA%D8%A7%D8%AC%D8%B1%20%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9&sr=1440x2200&vp=1440x2200&_u=YEBAAEABAAAAACAAI~&jid=1439875962&gjid=104069203&cid=1641251165.1775242579&tid=UA-92820988-1&_gid=273773067.1775242579&_r=1&_slc=1&gtm=45He6411n81TZG5BRNv812961182za200zd812961182&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616986~115938465~115938469~116991817&z=333869565",
+      "content_type": "text/plain",
+      "body_preview": "2,x"
+    },
+    {
+      "status": 200,
+      "url": "https://maroof.sa/assets/configuration/version.txt",
+      "content_type": "text/plain",
+      "body_preview": "v4.0.129\n"
+    },
+    {
+      "status": 200,
+      "url": "https://maroof.sa/assets/i18n/ar.json",
+      "content_type": "application/json",
+      "body_preview": "{\"general\": {\"language\": \"EN\", \"cancel\": \"إلغاء\", \"ok\": \"تأكيد\"}, \"userProfile\": {\"address\": \"العنوان\", \"birthDate\": \"تاريخ الميلاد\", \"cancel\": \"إلغاء\", \"checkEmailNote\": \" يلزمك تأكيد ملكيتك لهذا البريد الالكتروني لاعتماده \", \"city\": \"المدينة\", \"contactInfo\": \"  معلومات التواصل\", \"district\": \"الحي\", \"familyName\": \"  اسم العائلة\", \"female\": \"انثى\", \"firstName\": \" الاسم الاول \", \"gender\": \"النوع\", \"idNumber\": \"رقم الهوية \", \"imgSize\": \"  أقصي حجم (5) ميجا بايت \", \"male\": \"ذكر\", \"optional\": \"اختياري\", \"personalInfo\": \" المعلومات الشخصية \", \"phoneNumber\": \"رقم الجوال\", \"profile\": \"الملف الشخصي\", \"profileImg\": \"  صورة الملف الشخصي \", \"region\": \" المنطقة\", \"saveChanges\": \" حفظ التغييرات\", \"street\": \"الشارع\", \"verfiy\": \" تحقق\"}, \"businesses\": {\"businesses\": \"متاجر معروف\", \"Latest\": \"الأحدث\", \"bestRated\": \" الأفضل تقييمًا\", \"topRated\": \"  الأكثر تقييمًا\", \"numberOfResults\": \"عدد النتائج\", \"removeFilter\": \"إزالة التصفية\", \"typeOfCertificate\": \"نوع الشهادة\", \"Cr\": \"ذهبية\", \"FL\": \"فضية\", \"businessCategory\": \"تصنيف العمل \", \"siteFilter\": \"تصفية الموقع\", \"search\": \"بحث\", \"searchByStoreNameOrMaroofNumber\": \"إبحث باسم المتجر او رقم معروف\", \"maroofNumber\": \"رقم معروف\", \"licenseNo\": \"رقم الوثيقة\", \"crNumber\": \"رقم السجل التجاري\", \"crName\": \"الاسم التجاري\", \"shareStore\": \"مشاركة المتجر\", \"businessInfo\": \"بيانات العمل\", \"mainBusinessType\": \"نوع العمل الرئيسي\", \"businessDescr\": \"نبذه عن العمل\", \"balagh\": \"تقديم بلاغ تجاري\", \"balaghTitle\": \"يمكنك تقديم بلاغ التجاري عند وجود اي اختلاف بالبيانات المقدمة او عدم مصداقية المتجر\", \"refundExchangePolicy\": \"سياسة الاستبدال والاسترجاع\", \"contactInfo\": \"بيانات التواصل\", \"email\": \"بريد إلكتروني\", \"tel\": \"هاتف\", \"customerService\": \"خدمة عملاء\", \"businessConsoles\": \"المنصات الإلكترونية\", \"website\": \"موقع ويب\", \"applestore\": \"متجر أبل\", \"googleplay\": \"متجر جوجل\", \"facebook\": \"فيسبوك\", \"twitter\": \"تويتر\", \"instagram\": \"إنستقرام\", \"similarBusinesses\": \"متاجر مشابهة\", \"refundDays\": \"ايام الاسترجاع\", \"exchangeDays\": \"ايام الاستبدال\", \"exchangeRefundPoli"
+    },
+    {
+      "status": 200,
+      "url": "https://maroof.sa/assets/images/header/logo-xl.svg",
+      "content_type": "image/svg+xml",
+      "body_preview": "<svg width=\"115\" height=\"56\" viewBox=\"0 0 115 56\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_126588_92840)\">\n<path d=\"M49.9745 15.0069C49.4278 14.4936 48.6411 14.2402 47.6278 14.2402C46.6145 14.2402 45.8345 14.4936 45.3078 15.0069C44.7811 15.5136 44.5145 16.2736 44.5145 17.2736V22.4269H37.8611C38.3678 21.7869 38.8678 21.2069 39.3611 20.6869C39.8545 20.1669 40.4678 19.5936 41.2011 18.9736V18.7202C41.2011 18.0602 41.0945 17.4536 40.8878 16.9069C40.6811 16.3602 40.3811 15.8869 39.9945 15.4936C39.6078 15.0936 39.1478 14.7936 38.6211 14.5736C38.0945 14.3536 37.5145 14.2469 36.8945 14.2469C36.2745 14.2469 35.6945 14.3536 35.1678 14.5736C34.6411 14.7936 34.1811 15.1002 33.7945 15.4936C33.4078 15.8869 33.1078 16.3602 32.9011 16.9069C32.6945 17.4536 32.5878 18.0602 32.5878 18.7202V18.9736C33.3211 19.5936 33.9345 20.1669 34.4278 20.6869C34.9211 21.2069 35.4211 21.7869 35.9278 22.4269H29.4678V14.3269H28.1345V24.7469C28.1345 25.1469 28.1011 25.4736 28.0345 25.7402C27."
+    },
+    {
+      "status": 200,
+      "url": "https://maroof.sa/assets/images/icons/StoreGray.svg",
+      "content_type": "image/svg+xml",
+      "body_preview": "<svg width=\"90\" height=\"46\" viewBox=\"0 0 90 46\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M1.01586 43.4054L4.90206 34.1103L0 30.769C4.90244 27.3892 15.3203 24.1701 24.0789 23.0957V36.3009C15.259 37.2318 6.60374 40.9041 1.01586 43.4054Z\" fill=\"url(#paint0_linear_121487_80858)\"/>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M9.07812 33.3173L23.6834 36.2376V27.4766L9.07812 33.3173Z\" fill=\"#818181\"/>\n<mask id=\"mask0_121487_80858\" style=\"mask-type:alpha\" maskUnits=\"userSpaceOnUse\" x=\"65\" y=\"23\" width=\"25\" height=\"21\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M65.9199 23.0977H89.9989V43.4074H65.9199V23.0977Z\" fill=\"white\"/>\n</mask>\n<g mask=\"url(#mask0_121487_80858)\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M89.4617 43.4074L85.5753 34.1123L90.4774 30.7709C85.575 27.3912 75.1573 24.172 66.3984 23.0977V36.3028C75.2186 37.2338 83.8737 40.906 89.4617 43.4074Z\" fill=\"url(#paint1_linear_121487_80858)\"/>\n</g>\n<path fill-rule"
+    },
+    {
+      "status": 200,
+      "url": "https://www.google.com/ccm/collect?frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fmaroof.sa%2Fbusinesses&scrsrc=www.googletagmanager.com&rnd=958291244.1775242579&dt=%D9%85%D8%B9%D8%B1%D9%88%D9%81%20%7C%20%D8%B5%D9%81%D8%AD%D8%A9%20%D8%A7%D9%84%D9%85%D8%AA%D8%A7%D8%AC%D8%B1%20%D8%A7%D9%84%D8%A5%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%8A%D8%A9&auid=2076755604.1775242579&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6411v812961182za200zd812961182xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~1156
+(Content truncated due to size limit. Use line ranges to read remaining content)

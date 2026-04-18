@@ -1,0 +1,65 @@
+{
+  "data": [
+    {
+      "app": "Uber Driver",
+      "iosReviews": 66791,
+      "androidReviews": 4929237
+    },
+    {
+      "app": "HungerStation",
+      "iosReviews": 25970,
+      "androidReviews": 133145
+    },
+    {
+      "app": "Jahez Driver",
+      "iosReviews": 0,
+      "androidReviews": 0
+    },
+    {
+      "app": "Jeeny Driver",
+      "iosReviews": 94518,
+      "androidReviews": 63085
+    },
+    {
+      "app": "Bolt Driver",
+      "iosReviews": 0,
+      "androidReviews": 534409
+    },
+    {
+      "app": "The Chefz",
+      "iosReviews": 164,
+      "androidReviews": 4128
+    },
+    {
+      "app": "Keeta Rider",
+      "iosReviews": 446,
+      "androidReviews": 13383
+    },
+    {
+      "app": "ToYou Rep",
+      "iosReviews": 388,
+      "androidReviews": 12441
+    },
+    {
+      "app": "Maraseel",
+      "iosReviews": 5383,
+      "androidReviews": 2882
+    },
+    {
+      "app": "Noon Food Partner",
+      "iosReviews": 13,
+      "androidReviews": 0
+    },
+    {
+      "app": "Hemam Partner",
+      "iosReviews": 4,
+      "androidReviews": 28
+    },
+    {
+      "app": "Kaiian Driver",
+      "iosReviews": 56194,
+      "androidReviews": 14148
+    }
+  ],
+  "timestamp": "2026-04-13T22:14:53.054Z"
+}
